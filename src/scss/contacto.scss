@@ -1,0 +1,208 @@
+.contacto {
+    margin-top: 15rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    scroll-margin-top: 15em;
+
+    .hiden {
+        display: none;
+    }
+
+    h2 {
+        font-family: letra;
+        font-size: 5rem;
+        text-align: center;
+        color: rgba(127, 2, 145, 1);
+        margin-bottom: 2rem;
+
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: letra;
+            font-size: 2rem;
+            background-color: #7F0291;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+
+            p {
+                font-size: 2rem;
+                padding: 1rem;
+            }
+
+            input {
+                width: 62rem;
+                height: 4rem;
+                text-align: center;
+                margin-bottom: 2rem;
+                font-family: letra;
+            }
+
+
+            input::placeholder {
+                font-size: 2rem;
+                color: #7F0291;
+            }
+
+            .mail {
+                width: 126rem;
+            }
+
+            textarea {
+                width: 126rem;
+                font-family: letra;
+                text-align: center;
+                margin-bottom: 4rem;
+            }
+
+            textarea::placeholder {
+                margin-top: 2rem;
+                font-size: 2rem;
+                color: #7F0291;
+            }
+
+
+            .nameForm {
+                display: flex;
+                margin-bottom: 1rem;
+
+                input {
+                    margin: 1rem;
+                }
+            }
+
+            button {
+                height: 4.7rem;
+                width: 17rem;
+                font-size: 2.2rem;
+                color: #7F0291;
+                background-color: rgba(255, 153, 0, 1);
+                clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 20%, 94% 20%, 94% 0%);
+            }
+        }
+    }
+
+    .redesContacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+
+        h4 {
+            color: #7F0291;
+            margin: 0rem 6rem 0rem 1.7rem;
+        }
+    }
+
+    .whats {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        button {
+            background-color: #7F0291;
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 20%, 94% 20%, 94% 0%);
+            color: white;
+            height: 4.7rem;
+            width: 17rem;
+            font-size: 2.2rem;
+
+            a {
+                color: white;
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 1363px) {
+
+    .contacto {
+        height: 90rem;
+    }
+
+    .nameForm {
+        flex-direction: column;
+    }
+
+    form {
+
+        input,
+        textarea {
+            width: 60rem !important;
+        }
+    }
+
+}
+
+@media (max-width: 835px) {
+    .contacto {
+        height: 110rem;
+    }
+
+    .redesContacto {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            margin-top: 2rem;
+        }
+
+        h4 {
+            margin: 0 !important;
+            text-align: center;
+            margin-top: 2rem !important;
+        }
+    }
+}
+
+@media (max-width: 693px) {
+    .contacto {
+        height: 105rem;
+    }
+
+    h2 {
+        font-size: 3.3rem !important;
+    }
+
+    form {
+
+        input,
+        textarea {
+            width: 38rem !important;
+        }
+    }
+
+}
+
+@media (max-width: 451px) {
+    .contacto {
+        height: 100rem;
+    }
+
+    h2 {
+        font-size: 2.9rem !important;
+    }
+
+    form {
+
+
+        input,
+        textarea {
+            width: 27rem !important;
+        }
+    }
+}

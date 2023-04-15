@@ -1,0 +1,129 @@
+.nosotros {
+    margin-top: 15rem;
+    height: 65rem;
+    scroll-margin-top: 15em;
+
+    .titleNosotros {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            color: #a9277e;
+            font-family: titulos;
+            font-size: 1.9rem;
+            text-align: center;
+        }
+    }
+
+    .contentNosotros {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 7rem;
+        margin-bottom: 16rem;
+
+
+
+        .misionNos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .textoMision {
+                margin-right: 10rem;
+                margin-left: 2rem;
+
+                h3 {
+                    text-align: start;
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    font-size: 2rem;
+                    width: 60rem;
+                    text-align: start;
+                    padding: 2rem;
+                }
+            }
+        }
+
+        .equipoNos {
+            width: 20rem;
+
+            .descripEquipo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .dw,
+                .uxui {
+                    display: flex;
+
+                    .cuadrado {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 14.3rem;
+                        width: 14.3rem;
+                        background-color: #9A2273
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1020px) {
+    .nosotros {
+        height: 95rem;
+    }
+}
+
+@media (max-width: 842px) {
+
+    .nosotros {
+        height: 105rem;
+    }
+
+    .misionNos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+
+        .imgMision {
+            margin-bottom: 2rem;
+            margin-left: 1rem;
+
+        }
+
+        .textoMision {
+            margin-bottom: 2rem;
+            margin-right: 0rem !important;
+            width: 100%;
+
+            h3 {
+                text-align: center !important;
+            }
+
+            p {
+                text-align: center !important;
+                font-size: 1.7rem !important;
+                width: 100% !important;
+
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .nosotros {
+        height: 120rem;
+    }
+}

@@ -1,0 +1,168 @@
+.servicios {
+    margin-top: 10rem;
+    scroll-margin-top: 15em;
+
+
+    .titleServicios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            color: rgb(217, 108, 78);
+            font-family: titulos;
+            font-size: 1.9rem;
+            text-align: center;
+        }
+    }
+
+    .contentServ {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+
+        .imagenDeMarca,
+        .sitioWeb {
+            width: 50rem;
+            margin: 1rem;
+        }
+
+        h3 {
+            margin-top: 1.2rem;
+        }
+
+        .descripServ {
+            height: 12rem;
+
+            p {
+                padding: 2rem;
+            }
+        }
+
+        .linea {
+            width: 0.1rem;
+            background-color: white;
+            height: 68.5rem;
+        }
+
+        .imgServ {
+            display: flex;
+            justify-content: center;
+        }
+
+        .itemsServ {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20rem;
+
+            .alinear {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                padding: 1rem;
+                margin: 1rem;
+
+                img {
+                    margin-right: 1rem;
+                }
+
+            }
+
+        }
+
+        .beneficiosServ1,
+        .beneficiosServ2 {
+            height: 26rem;
+            background-color: #AA3462;
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+            h4 {
+                padding-top: 2rem;
+            }
+
+            .ulBenef {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    list-style: square;
+                    margin: 1rem 2rem 1rem 2rem;
+                    color: white;
+                    font-family: letra;
+                    font-size: 1.8rem;
+                }
+            }
+
+        }
+
+        .beneficiosServ2 {
+            background-color: #971E77;
+        }
+
+    }
+
+
+}
+
+
+
+
+@media (max-width: 1681px) {
+
+    .span1,
+    .span4 {
+        display: none;
+    }
+}
+
+@media (max-width: 1041px) {
+    .linea {
+        display: none;
+    }
+}
+
+@media (max-width: 1014px) {
+
+    .span2,
+    .span3 {
+        display: none;
+    }
+}
+
+@media (max-width: 406px) {
+    .descripServ {
+        height: 20rem !important;
+    }
+
+    .ulBenef {
+        flex-direction: column;
+    }
+
+    .itemsServ {
+        flex-direction: column;
+        height: 35rem !important;
+        margin-top: 1rem;
+
+    }
+
+    .beneficiosServ1,
+    .beneficiosServ2 {
+        height: auto !important;
+
+        ul {
+            flex-direction: column;
+            align-items: center;
+
+            li {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,187 @@
+.condicional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .renderCondicional {
+        background-color: rgb(213, 108, 42);
+        width: 100%;
+    }
+
+    .buttonsCondicional {
+
+        .buttons1,
+        .buttons2 {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+
+    }
+
+
+
+    .subtitleRubro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            color: #7F0291;
+            margin-top: 3rem;
+        }
+    }
+
+    .rubro {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 4rem;
+
+        .items {
+            width: 28rem;
+            margin: 1rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+
+            .titleRubro {
+                display: flex;
+                justify-content: center;
+
+                h4 {
+                    font-family: letra;
+                    font-size: 4rem;
+                    color: white;
+                    margin-top: 1.4rem;
+                    margin-left: 1rem;
+                    margin-bottom: 1rem;
+                }
+
+
+                .nroItem {
+                    font-family: titulos;
+                    font-size: 3.6rem;
+                    color: white;
+                    margin-left: 1rem;
+                }
+
+
+            }
+
+
+            .descripRubro2 {
+                height: 53rem;
+            }
+
+            .descripRubro {
+                height: 18rem;
+            }
+
+            .descripRubro,
+            .descripRubro2 {
+                background-color: rgba(137, 14, 133, 0.3);
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+
+                .vector1,
+                .vector2 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                }
+
+                p {
+                    margin-top: 2rem;
+                    font-size: 2rem;
+                    margin-top: 2rem;
+                    padding-bottom: 2.5rem;
+                }
+
+            }
+
+        }
+
+        .linea,
+        .linea2,
+        .linea3 {
+            display: flex;
+            margin-top: 10rem;
+            width: 0.1rem;
+            background-color: white;
+            height: 60rem;
+
+        }
+    }
+
+    .contactoRubro {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        button {
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 20%, 94% 20%, 94% 0%);
+            background-color: #7F0291;
+            color: white;
+            width: 18rem;
+            height: 4.7rem;
+
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .contraer {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+
+        button {
+            background-color: #7F0291;
+            color: white;
+            height: 4rem;
+            width: 10rem;
+            font-size: 1.7rem;
+        }
+    }
+
+    .otroRubro {
+        margin-top: 6rem;
+
+        .contactoRubro {
+            display: flex;
+            justify-content: center;
+
+            button {
+                color: black;
+                background-color: white;
+
+                a {
+                    color: #7F0291;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 901px) {
+
+    .linea,
+    .linea2,
+    .linea3 {
+        display: none !important;
+    }
+
+    .items {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
