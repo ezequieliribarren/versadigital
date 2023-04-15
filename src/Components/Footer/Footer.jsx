@@ -24,7 +24,7 @@ const Footer = () => {
             <a href="#"><img src="/images/vectores/versaFoot.png" alt="Versa" /></a>
             <div className='copyVersa'>
             <p>&copy; [2023] Versa Digital. Todos los derechos reservados.</p>
-            <a target='_blank' href="www.freepik.com"> <p>Algunas imágenes utilizadas en este sitio web son de Freepik y están <br /> sujetas a sus términos de uso y atribución</p></a>
+            <a target='_blank' href="www.freepik.com"> <p>Algunas imágenes utilizadas en este sitio web son de Freepik y están sujetas a sus términos de uso y atribución</p></a>
             </div> 
             </div>
 

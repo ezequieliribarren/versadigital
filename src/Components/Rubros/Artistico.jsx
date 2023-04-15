@@ -9,7 +9,7 @@ const Artistico = () => {
         <span className='nroItem'>1.</span><h4>imagen de marca</h4>  
     </div>
 <div className='imgRubro'>
-    <img src="/images/artistico/maskartistico.webp" alt="Imagen De Marca" />
+    <img src="/images/artistico/maskArtistico.webp" alt="Imagen De Marca" />
 </div>
 <div className='descripRubro'>
    <p>Destacá, genera confianza y lealtad con una imagen de marca profesional para tu negocio</p> 

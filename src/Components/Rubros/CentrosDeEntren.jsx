@@ -9,7 +9,7 @@ const CentrosDeEntren = () => {
         <span className='nroItem'>1.</span><h4>imagen de marca</h4>  
     </div>
 <div className='imgRubro'>
-    <img src="/images/centroDeEntrenamiento/maskcentroDeEntrenamiento.webp" alt="Imagen de marca" />
+    <img src="/images/centroDeEntrenamiento/maskCentroDeEntrenamiento.webp" alt="Imagen de marca" />
 </div>
 <div className='descripRubro'>
    <p>Destacá, genera confianza y lealtad con una imagen de marca profesional para tu centro de entrenamiento</p> 
