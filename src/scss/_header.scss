@@ -64,6 +64,16 @@
         background-color: white;
 
     }
+
+    .whatsFlot {
+        position: fixed;
+        top: 87%;
+        left: 92%;
+
+        img {
+            width: 6.5rem;
+        }
+    }
 }
 
 @media (max-width: 1475px) {

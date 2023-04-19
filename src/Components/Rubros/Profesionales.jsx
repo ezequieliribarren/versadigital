@@ -18,7 +18,7 @@ const Profesionales = () => {
 <div className='linea'></div>
 <div className='items'>
     <div className='titleRubro'>
-        <span className='nroItem'>2.</span><h4>sitio de prentación</h4>  
+        <span className='nroItem'>2.</span><h4>sitio de presentación</h4>  
     </div>
 <div className='imgRubro'>
     <img src="/images/profesionales/sitioPresentacion.webp" alt="Sitio de Presentación" />

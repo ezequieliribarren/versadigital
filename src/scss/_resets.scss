@@ -15,16 +15,15 @@ html {
 @font-face {
     font-family: "letra";
     src: url(../../public/fonts/SWIsop1.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "titulos";
     src: url(../../public/fonts/titulos.TTF);
+    font-display: swap;
 }
 
-li {
-    list-style: none;
-}
 
 a {
     text-decoration: none;
