@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# ¡Bienvenidos al proyecto de Versa Digital!     ![Versa Digital](https://versadigital.com.ar/images/logoNav.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyedto fue diseñado para ayudar a emprendimientos, empresas y negocios a tener presencia y participación en el mundo digital. Para lograr este objetivo, trabajamos junto a diseñadores UX/UI para crear una identidad visual que transmita la idea de lo digital.
 
-## Available Scripts
+## Diseño Ux/Ui      
 
-In the project directory, you can run:
+Desde el lado del diseño UX/UI, se buscó crear una estética moderna y funcional. Para ello, se inspiraron en el diseño de píxeles, una técnica que utiliza elementos gráficos mínimos para crear imágenes digitales claras y precisas. Este enfoque se adaptó a la perfección a la filosofía del proyecto, ya que busca simplificar el proceso de llevar a empresas y emprendimientos al mundo digital.
 
-### `npm start`
+![Versa Digital](https://versadigital.com.ar/images/nosotros/break.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## React JS ![React JS](https://www.shareicon.net/data/256x256/2016/07/08/117367_logo_512x512.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Utilizamos React js para facilitar la futura implementación de un blog para nuestros clientes. La ventaja de utilizar React es que nos permite crear una aplicación web altamente interactiva y escalable. También, cuando implementemos dicho blog, utilizaremos React Router DOM para mejorar la velocidad de navegación entre las páginas del blog.
 
-### `npm test`
+## Dependencias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+En cuanto a las dependencias utilizadas en el proyecto, utilizamos Sass y Bootstrap para mejorar la eficiencia y facilidad de mantenimiento del código CSS, y para crear una interfaz gráfica responsive y adaptativa para diferentes dispositivos.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
