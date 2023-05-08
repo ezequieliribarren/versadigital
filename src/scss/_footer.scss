@@ -6,7 +6,7 @@
     height: auto;
     width: 100%;
     margin-top: 5rem;
-    background-color: #e6e6e6a9;
+    background-color: #d9d9d9c4;
 
 
     .contenedorFoot {
@@ -16,6 +16,9 @@
         justify-content: start;
         margin: 2rem;
 
+        .imgFoot{
+            margin-top: 1.7rem;
+        }
 
         a {
             font-size: letra;
@@ -25,8 +28,8 @@
         }
 
         div {
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
+            margin-top: 1em;
+            margin-bottom: 1rem;
         }
 
         .siteMap {
@@ -41,7 +44,7 @@
             flex-direction: column;
             align-items: start;
             margin-bottom: 0;
-            margin-top: 1rem;
+            margin-top: 2rem;
 
             .redes {
                 display: flex;
@@ -51,7 +54,7 @@
         }
     }
 
-    .imgFoot {
+    .copyRight {
         display: flex;
         flex-direction: column;
         justify-content: center;
