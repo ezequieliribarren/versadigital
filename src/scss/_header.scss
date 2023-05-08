@@ -69,6 +69,7 @@
         position: fixed;
         top: 87%;
         left: 92%;
+        z-index: 1;
 
         img {
             width: 6.5rem;
@@ -77,8 +78,12 @@
 }
 
 @media (max-width: 1475px) {
+    h1{
+        font-size: 3.4rem;
+    }
     .contactanos {
         left: 74% !important;
+
 
         button {
             display: flex;
@@ -97,9 +102,19 @@
 }
 
 @media (max-width: 1130px) {
+    h1{
+        font-size: 3.2rem
+    }
+    .whatsFlot {
+            position: fixed;
+            top: 67% !important;
+            left: 88% !important;
+        }
     .contactanos {
         left: 74% !important;
         bottom: 10% !important;
+
+        
 
         button {
             display: flex;
@@ -118,6 +133,17 @@
 }
 
 @media (max-width: 855px) {
+    .whatsFlot {
+        position: fixed;
+        top: 63% !important;
+        left: 88% !important;
+        img {
+            width: 5.5rem !important;
+        }
+    }
+    h1{
+        font-size: 3re
+    }
     .contactanos {
         left: 74% !important;
         bottom: 8% !important;
@@ -139,6 +165,9 @@
 }
 
 @media (max-width: 675px) {
+    h1{
+        font-size: 2.8rem
+    }
     .contactanos {
         left: 74% !important;
         bottom: 6% !important;
@@ -162,6 +191,18 @@
 }
 
 @media (max-width: 519px) {
+    h1{
+        font-size: 2.6rem
+    }
+
+    .whatsFlot {
+        position: fixed;
+        top: 50% !important;
+        left: 86% !important;
+        img {
+            width: 5rem !important;
+        }
+    }
     .contactanos {
         left: 70% !important;
         bottom: 5% !important;
@@ -194,7 +235,16 @@
 
 @media (max-width: 350px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
+    }
+
+    .whatsFlot {
+        position: fixed;
+        top: 59% !important;
+        left: 83% !important;
+        img {
+            width: 4.5rem !important;
+        }
     }
 
     .pHeader1 {
