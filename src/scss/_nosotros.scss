@@ -1,5 +1,5 @@
 .nosotros {
-    margin-top: 15rem;
+    margin-top: 12rem;
     height: 65rem;
     scroll-margin-top: 15em;
 
@@ -79,9 +79,16 @@
 
 }
 
-@media (max-width: 1020px) {
+
+
+@media (max-width: 1120px) {
     .nosotros {
         height: 95rem;
+
+        .contentNosotros{
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
 

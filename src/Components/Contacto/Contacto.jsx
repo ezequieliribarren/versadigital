@@ -17,7 +17,7 @@ const Contacto = () => {
 
 <textarea name="consulta" id="" cols="30" rows="15" placeholder='Escribe tu mensaje' required></textarea>
 
-<input className="hiden" type="hiden" name="_next" defaultValue="http://localhost:3000/" />
+<input className="hiden" type="hiden" name="_next" defaultValue="https://versadigital.com.ar/" />
 <input className="hiden" type="hiden" name="_captcha" defaultValue="false" />
 
 <button type='submit'>ENVIAR</button>
