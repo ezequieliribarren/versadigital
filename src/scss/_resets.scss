@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+scroll-behavior: smooth;
 }
 
 .app {
@@ -30,6 +31,10 @@ a {
     font-family: letra;
     font-size: 2.4rem !important;
     text-align: center;
+}
+
+ul{
+    list-style: none;
 }
 
 p {

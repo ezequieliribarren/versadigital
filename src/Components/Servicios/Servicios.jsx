@@ -73,6 +73,63 @@ const Servicios = () => {
 </div>
 </div>
  </div>
+ <div className='contentServ'>
+<div className='marketing'>
+<div className='imgServ'><img src="/images/servicios/marketing.png" alt="Imagen de Marca" /></div>
+<div><h3>marketing digital</h3></div>
+<div className='descripServ'><p>Creamos una estrategia para posicionar tu  <br/> negocio en redes sociales gestionándolas para <br/> alcanzar el máximo potencial en línea</p></div>
+<div>
+
+    <div className='itemsServ'>
+
+<div className='colServ'>
+        <div className='alinear'><img src="images/servicios/instagram.png" alt="Instagram" /> <p>Instagram</p></div>
+        <div className='alinear'><img src="images/servicios/linkedin.png" alt="Linkedin" /> <p>Linkedin</p></div>
+        <div className='alinear'><img src="images/servicios/whats.png" alt="Whatsapp Business" /> <p>Wp Business</p></div>
+</div>
+<div className='colServ'>
+<div className='alinear'><img src="images/servicios/facebook.png" alt="Facebook" /> <p>Facebook</p></div>
+<div className='alinear'><img src="images/servicios/tiktok.png" alt="Tik-Tok" /> <p>Tik-Tok</p></div>
+<div className='alinear'><img src="images/servicios/youtube.png" alt="Youtube" /> <p>Youtube</p></div>
+</div>
+<div className='colServ'>
+<div className='alinear'><img src="images/servicios/bussines.png" alt="Google mi negocio" /> <p>Mi negocio</p></div>
+<div className='alinear'><img src="images/servicios/ads.png" alt="Google Ads" /> <p>Google Ads</p></div>
+<div className='alinear'><img src="images/servicios/mas.png" alt="Más" /> <p> y más !</p></div>
+</div>
+
+    </div>
+
+</div>
+<div className='beneficiosServ1'>
+    <h4>Beneficios</h4>
+    <div className='ulBenef'>
+        <ul>
+    <li>Crea una comunidad en línea para tu marca</li>
+    <li>Aumenta la interacción y visibilidad del negocio</li>
+    <li>Atención al cliente óptima</li>
+        </ul>
+    <ul>
+    <li>Aumenta tus ventas</li>
+    <li>Análisis continuo de métricas y rendimiento</li>
+    <li>Calendario de contenido por mes adelantado</li>
+    </ul>
+    </div>
+</div>
+</div>
+<div className='linea'></div>
+<div className='contactanos'>
+    <div className='asesorate'>
+        <h3>¿Querés asesorarte sobre <br /> nuestros servicios?</h3>
+    </div>
+<div  className='beneficiosServ2'>
+    <p>Estamos para despejar tus dudas y ayudarte a alcanzar tus objetivos digitales!</p>
+<button>
+      <a target="_blank" href="https://wa.me/+541130589482?text=Hola,%20estoy%20en%20la%20página%20de%20VERSA DIGITAL%20y%20quiero%20 pedir%20más%20información">contactanos</a>
+      </button>
+</div>
+</div>
+ </div>
     </section>
   )
 }

@@ -1,7 +1,7 @@
 .nosotros {
     margin-top: 12rem;
-    height: 65rem;
     scroll-margin-top: 15em;
+    height: auto;
 
     .titleNosotros {
         display: flex;
@@ -11,103 +11,111 @@
         span {
             margin-left: 1.5rem;
             margin-right: 1.5rem;
-            color: #a9277e;
+            color: #b7308a;
             font-family: titulos;
             font-size: 1.9rem;
             text-align: center;
         }
     }
 
+.alineacionNosotros{
+    display: flex;
+    margin-top: 10rem;
+}
     .contentNosotros {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 7rem;
         margin-bottom: 16rem;
 
-
-
-        .misionNos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-
-            .textoMision {
-                margin-right: 10rem;
-                margin-left: 2rem;
-
-                h3 {
-                    text-align: start;
-                    margin-bottom: 2rem;
-                }
-
-                p {
+        h3 {
+            font-size: 4rem;
+            text-align: left;
+            margin-left: 1.5rem;
+        }
+         p {
                     font-size: 2rem;
-                    width: 60rem;
+                    width: 100%;
                     text-align: start;
                     padding: 2rem;
+                    margin-top: 2rem;
                 }
+
+        .misionNos, .equipoNos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        
+            .textoMision {
+padding: 3rem;
+               
             }
         }
 
-        .equipoNos {
-            width: 20rem;
+        .equipo{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
 
-            .descripEquipo {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+.cardEquipo{
+margin: 1.5rem;
+    width: 17.5rem !important;
+    height: 47rem;
 
-                .dw,
-                .uxui {
-                    display: flex;
+}
 
-                    .cuadrado {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        height: 14.3rem;
-                        width: 14.3rem;
-                        background-color: #9A2273
-                    }
+.imgCard{
+    width: 100%;
+}
 
-                }
-            }
-        }
+.dw{
+    background-color: #800391;
+}
+
+.ux{
+    background-color: #961D77
+}
+
+.cm{
+    background-color: #9F286D
+}
+
+.contentEquipo{
+h4{
+    margin-top: 3rem;
+}
+}
+
+           }
     }
 
 }
 
-
-
 @media (max-width: 1120px) {
     .nosotros {
-        height: 95rem;
-
         .contentNosotros{
             flex-direction: column;
             align-items: center;
         }
     }
 }
-
 @media (max-width: 842px) {
 
-    .nosotros {
-        height: 105rem;
-    }
+  .alineacionNosotros{
+    flex-direction: column;
+    align-items: center;
+.contentNosotros{
+       h3{
+        text-align: center !important;
+        margin-top: 2rem ;
+    } 
+}
+
+  }
 
     .misionNos {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100% !important;
-
-        .imgMision {
-            margin-bottom: 2rem;
-            margin-left: 1rem;
-
         }
 
         .textoMision {
@@ -115,22 +123,12 @@
             margin-right: 0rem !important;
             width: 100%;
 
-            h3 {
-                text-align: center !important;
-            }
 
             p {
                 text-align: center !important;
-                font-size: 1.7rem !important;
+                font-size: 1.8rem !important;
                 width: 100% !important;
 
             }
-        }
-    }
-}
-
-@media (max-width: 400px) {
-    .nosotros {
-        height: 120rem;
     }
 }

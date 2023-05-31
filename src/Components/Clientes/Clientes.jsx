@@ -17,6 +17,9 @@ const Clientes = () => {
             <div className='itemClient'>
             <img src="/images/clientes/cliente3.png" alt="" />
             </div>
+            <div className='itemClient'>
+            <img src="/images/clientes/cliente4.png" alt="" />
+            </div>
         </div>
     </section>
   )
