@@ -3,6 +3,10 @@ import { ReCAPTCHA } from 'react-google-recaptcha';
 
 const Contacto = () => {
 
+  const onChange = () =>{
+    console.log("onchange")
+  }
+
   const redirectToWhatsApp = () => {
     const phoneNumber = "+5491150439157";
     const message = encodeURIComponent(
@@ -27,11 +31,12 @@ const Contacto = () => {
             <textarea name="consulta" id="" cols="30" rows="15" placeholder='Escribe tu mensaje' required></textarea>
             <div className='reacptcha'>
             <ReCAPTCHA
-    sitekey="6LeE88MnAAAAAM7voe8XK1HNEXUH5ihRQQ-JP6AA"
+    sitekey="6LcaKsQnAAAAAEbMIuwUKYoAL0CO2KK0teE8via4"
+    onChange={onChange}
   />
             </div>
       <br/>
-      <input type="submit" value="Submit"/>
+      <input type="submit" value="Enviar"/>
 
           </form>
 

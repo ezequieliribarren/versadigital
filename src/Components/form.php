@@ -11,7 +11,8 @@ if ( !isset($_POST["nombre"]) || !isset($_POST["apellido"]) || !isset($_POST["em
     die ("Es necesario completar todos los datos del formulario");
 }
 
-$recaptchaSecret = "6LeE88MnAAAAAKGkSYrs31x_Yvuigkost-2XxHVB"; // Reemplaza con tu clave secreta de reCAPTCHA v2
+$recaptchaSecret = "6LcaKsQnAAAAAHcKC8TF4DtbYGtf0-ahllpPyuN8
+"; // Reemplaza con tu clave secreta de reCAPTCHA v2
 $recaptchaResponse = $_POST["g-recaptcha-response"];
 $ip = $_SERVER["REMOTE_ADDR"];
 $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaResponse}&remoteip={$ip}");
