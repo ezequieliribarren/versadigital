@@ -20,7 +20,7 @@ const Contacto = () => {
       <h2>¿Trabajamos juntos?</h2>
       <div className='formulario'>
         <div>
-          <form id="contact-form" action="form.php" method="POST" >
+          <form id="contact-form" action="/src/php/form.php" method="POST" >
             <div><p>Nos interesa conocerte, contanos sobre tu negocio y te <br /> brindaremos atención personalizada para cumplir tus objetivos</p></div>
             <div className='nameForm'>
               <input type="text" placeholder='Nombre' name='nombre' required /> <input type="text" placeholder='apellido' name='Apellido' required />
