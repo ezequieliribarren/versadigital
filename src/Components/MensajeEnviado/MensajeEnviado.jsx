@@ -30,3 +30,6 @@ const MensajeEnviado = () => {
 };
 
 export default MensajeEnviado;
+
+
+

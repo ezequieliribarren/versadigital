@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contacto = () => {
-
-  const onChange = () =>{
-    console.log("onchange")
-  }
 
   const redirectToWhatsApp = () => {
     const phoneNumber = "+5491150439157";
@@ -14,23 +12,36 @@ const Contacto = () => {
     const url = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(url, "_blank");
   };
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ocgi27s', 'template_nyhs2eu', form.current, 'y_LzL_RArPzN49bNz')
+      .then((result) => {
+          window.location.href = "#/enviado"
+      }, (error) => {
+        window.location.href = "#/error"
+      });
+  };
+ 
 
   return (
     <section className='contacto' id='contacto'>
       <h2>¿Trabajamos juntos?</h2>
       <div className='formulario'>
         <div>
-          <form id="contact-form" action="/src/php/form.php" method="POST" >
+          <form ref={form} onSubmit={sendEmail}>
             <div><p>Nos interesa conocerte, contanos sobre tu negocio y te <br /> brindaremos atención personalizada para cumplir tus objetivos</p></div>
             <div className='nameForm'>
-              <input type="text" placeholder='Nombre' name='nombre' required /> <input type="text" placeholder='apellido' name='Apellido' required />
+              <input type="text" placeholder='Nombre' name='user_name' required />
             </div>
-            <input className='email' type="mail" placeholder='E-mail' name='email' required />
-            <input className="email" type="tel" placeholder="Teléfono" required name="telefono" />
-            <textarea name="consulta" id="" cols="30" rows="15" placeholder='Escribe tu mensaje' required></textarea>
+            <input className='email' type="mail" placeholder='E-mail' name='user_email' required />
+            <textarea name="message" id="" cols="30" rows="15" placeholder='Escribe tu mensaje' required></textarea>
 
       <br/>
-      <input type="submit" value="Enviar"/>
+      <input type="submit" value="Enviar" />
 
           </form>
 

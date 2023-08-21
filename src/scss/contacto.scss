@@ -142,7 +142,7 @@ display: block;
 
 .enviadoBlank{
     background-color: white;
-    height: 80vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -265,5 +265,9 @@ h2{
         textarea {
             width: 27rem !important;
         }
+    }
+
+    .enviadoBlank{
+        height: 100vh;
     }
 }
