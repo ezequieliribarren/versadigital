@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const MensajeEnviado = () => {
+const MensajeError = () => {
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
       window.location.href = 'https://www.versadigital.com.ar/';
@@ -12,8 +12,8 @@ const MensajeEnviado = () => {
   return (
     <div className='enviado'>
       <div className='enviadoBlank'>
-        <h2>¡GRACIAS POR COMUNICARTE CON NOSOTROS!</h2>
-        <h3>Estaremos poniéndonos en contacto lo antes posible</h3>
+        <h2>¡UPS, HA OCURRIDO UN ERROR!</h2>
+        <h3>Por favor, vuelve a intentarlo más tarde</h3>
         <img className='imgEnviado' src="/images/logoNav.png" alt="Logo Versa" /> <h3>Mientras tanto te invitamos a conocer más de nosotros en nuestra web y redes:</h3>
         <div className='enviadoRedes'>
           <a href="https://www.versadigital.com.ar/">Volver</a>
@@ -29,4 +29,4 @@ const MensajeEnviado = () => {
   );
 };
 
-export default MensajeEnviado;
+export default MensajeError;

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { ReCAPTCHA } from 'react-google-recaptcha';
 
 const Contacto = () => {
 
@@ -29,12 +28,7 @@ const Contacto = () => {
             <input className='email' type="mail" placeholder='E-mail' name='email' required />
             <input className="email" type="tel" placeholder="Teléfono" required name="telefono" />
             <textarea name="consulta" id="" cols="30" rows="15" placeholder='Escribe tu mensaje' required></textarea>
-            <div className='reacptcha'>
-            <ReCAPTCHA
-    sitekey="6LcaKsQnAAAAAEbMIuwUKYoAL0CO2KK0teE8via4"
-    onChange={onChange}
-  />
-            </div>
+
       <br/>
       <input type="submit" value="Enviar"/>
 
