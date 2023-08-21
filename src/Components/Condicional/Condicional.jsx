@@ -17,6 +17,16 @@ import { useState, useRef  } from 'react'
 
 const Condicional = () => {
 
+  const redirectToWhatsApp = () => {
+    const phoneNumber = "+5491150439157";
+    const message = encodeURIComponent(
+      "Hola, estoy en la página de VERSA DIGITAL y quiero pedir más información"
+    );
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, "_blank");
+  };
+
+
     const FunctionGastronomico = () => {
         return <Gastronomico/>;
       };
@@ -116,9 +126,9 @@ const Condicional = () => {
 <h3>¿Pertenecés a otro rubro?</h3>
 <p>Contanos a qué te dedicás y creamos un plan personalizado.</p>
 <div className='contactoRubro'>
-<button>
-        <a target="_blank" href="https://wa.me/+5491150439157?text=Hola,%20estoy%20en%20la%20página%20de%20VERSA DIGITAL%20y%20quiero%20 pedir%20más%20información">contactanos</a>
-       </button>
+<button onClick={redirectToWhatsApp}>
+      contactanos
+    </button>
     </div>
     </div>
   </div>

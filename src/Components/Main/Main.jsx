@@ -8,12 +8,12 @@ import Nosotros from '../Nosotros/Nosotros'
 
 const Main = () => {
   return (
-              <main>
-           <Header/>
-           <Servicios/>
-           <Clientes/>
-           <Nosotros/>
-      </main>
+    <main>
+      <Header />
+      <Servicios />
+      <Clientes />
+      <Nosotros />
+    </main>
   )
 }
 

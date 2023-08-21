@@ -37,3 +37,82 @@
     }
 
 }
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicioModal{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    h3{
+        color: #7F0291 ;
+    }
+}
+
+.titleServModal{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+
+    h3{
+        margin-top: 1rem;
+    }
+
+}
+
+.imgModal{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.linkCliente{
+    padding: 0 !important;
+    button{
+        background-color: #7F0291;
+        color: white;
+        width: 18rem;
+        height: 5rem;
+        padding: 0.2 !important;
+        margin-left: 10rem;
+    }
+}
+.descrip-action{
+    height: 15rem;
+    display: flex;
+    margin-top: 4rem;
+}
+.descriptionModal{
+    background-color: #7F0291;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    h4{
+        margin-bottom: 1rem;
+        color: #FF9900;
+        font-size: 1.8rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+}
+
+.actionModal{
+    background-color: #FF9900;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

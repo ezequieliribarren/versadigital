@@ -121,7 +121,65 @@
 
 }
 
+.enviar-captcha{
+    display: flex !important;
+}
+*{
+    border: solid red 1px;
+}
 
+.g-recaptcha{
+    background-color: white !important;
+    color: white !important;
+    height: 30rem ;
+}
+
+// MENSAJE ENVIADO
+
+.enviado{
+    background: linear-gradient(to bottom, rgba(255, 153, 0, 1), rgba(127, 2, 145, 1));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviadoBlank{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+
+    h2, h3{
+        color: #7F0291;
+    }
+h2{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    font-family: superstar;
+}
+    h3{
+        font-size: 2.4rem;
+        font-family: letra;
+        margin-bottom: 5rem;
+    }
+
+    .imgEnviado{
+        margin-bottom: 7rem;
+    }
+
+    .enviadoRedes{
+        button{
+            width: 20rem;
+            background-color: #7F0291;
+            color: white;
+        }
+    }
+}
 
 @media (min-width: 2300px) {
     .contacto {

@@ -65,20 +65,35 @@
 
     .whatsFlot {
         position: fixed;
-        top: 87%;
-        left: 92%;
-        z-index: 1;
+        top: 80%;
+        left: 85%;
+        z-index: 100;
+        background-color: #389506;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15.9rem;
+        border-radius: 30px;
+        color: white;
+        text-align: right;
+        text-decoration: none;
+        font-family: Roboto, sans-serif;
+        font-size: 1.5rem !important;
+        font-weight: 700;
 
         img {
-            width: 6.5rem;
+            width: 5rem;
+            margin-left: 5px;
         }
     }
+
 }
 
 @media (max-width: 1475px) {
-    h1{
+    h1 {
         font-size: 3.4rem;
     }
+
     .contactanos {
         left: 74% !important;
 
@@ -87,11 +102,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
-            a {
-                font-size: 2.5rem !important;
-            }
-
+            font-size: 2.5rem !important;
             height: 4.8rem !important;
             width: 19.2rem !important;
 
@@ -100,29 +111,22 @@
 }
 
 @media (max-width: 1130px) {
-    h1{
+    h1 {
         font-size: 3.2rem
     }
-    .whatsFlot {
-            position: fixed;
-            top: 67% !important;
-            left: 88% !important;
-        }
+
+
     .contactanos {
         left: 74% !important;
         bottom: 10% !important;
 
-        
+
 
         button {
             display: flex;
             align-items: center;
             justify-content: center;
-
-            a {
-                font-size: 2rem !important;
-            }
-
+            font-size: 2rem !important;
             height: 3.8rem !important;
             width: 15.6rem !important;
 
@@ -130,18 +134,18 @@
     }
 }
 
-@media (max-width: 855px) {
-    .whatsFlot {
-        position: fixed;
-        top: 63% !important;
-        left: 88% !important;
-        img {
-            width: 5.5rem !important;
-        }
+@media(max-width: 1075px){
+    .whatsFlot{
+        top: 88% !important; 
+        left: 80% !important;
     }
-    h1{
+}
+
+@media (max-width: 855px) {
+    h1 {
         font-size: 3re
     }
+
     .contactanos {
         left: 74% !important;
         bottom: 8% !important;
@@ -150,11 +154,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
-            a {
-                font-size: 1.5rem !important;
-            }
-
+            font-size: 1.5rem !important;
             height: 3.1rem !important;
             width: 12.5rem !important;
 
@@ -162,24 +162,30 @@
     }
 }
 
+@media (max-width: 803px) {
+    .no-mobile{
+        display: none;
+    }
+
+    .whatsFlot{
+        width: 0rem !important;
+        left: 88% !important;
+    }
+}
+
 @media (max-width: 675px) {
-    h1{
+    h1 {
         font-size: 2.8rem
     }
     .contactanos {
         left: 74% !important;
         bottom: 6% !important;
 
-
         button {
             display: flex;
             align-items: start;
             justify-content: center;
-
-            a {
-                font-size: 1.2rem !important;
-            }
-
+            font-size: 1.2rem !important;
             height: 2.3rem !important;
             width: 9.6rem !important;
 
@@ -189,18 +195,10 @@
 }
 
 @media (max-width: 519px) {
-    h1{
+    h1 {
         font-size: 2.6rem
     }
 
-    .whatsFlot {
-        position: fixed;
-        top: 50% !important;
-        left: 86% !important;
-        img {
-            width: 5rem !important;
-        }
-    }
     .contactanos {
         left: 70% !important;
         bottom: 5% !important;
@@ -240,6 +238,7 @@
         position: fixed;
         top: 59% !important;
         left: 83% !important;
+
         img {
             width: 4.5rem !important;
         }
@@ -266,49 +265,58 @@
 
 
 // PRELOADER
-.hidden{
-  overflow: hidden;
+.hidden {
+    overflow: hidden;
 }
-.centrado{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(to bottom, rgba(255, 153, 0, 1), rgba(127, 2, 145, 1));
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(255, 153, 0, 1), rgba(127, 2, 145, 1));
 }
+
 .lds-facebook {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
 }
+
 .lds-facebook div {
-  display: inline-block;
-  position: absolute;
-  left: 8px;
-  width: 16px;
-  background: #fff;
-  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #fff;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
 }
+
 .lds-facebook div:nth-child(1) {
-  left: 8px;
-  animation-delay: -0.24s;
+    left: 8px;
+    animation-delay: -0.24s;
 }
+
 .lds-facebook div:nth-child(2) {
-  left: 32px;
-  animation-delay: -0.12s;
+    left: 32px;
+    animation-delay: -0.12s;
 }
+
 .lds-facebook div:nth-child(3) {
-  left: 56px;
-  animation-delay: 0;
+    left: 56px;
+    animation-delay: 0;
 }
+
 @keyframes lds-facebook {
-  0% {
-    top: 8px;
-    height: 64px;
-  }
-  50%, 100% {
-    top: 24px;
-    height: 32px;
-  }
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+
+    50%,
+    100% {
+        top: 24px;
+        height: 32px;
+    }
 }

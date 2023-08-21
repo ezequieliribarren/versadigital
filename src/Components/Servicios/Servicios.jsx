@@ -1,6 +1,16 @@
 import React from 'react'
 
 const Servicios = () => {
+
+    const redirectToWhatsApp = () => {
+        const phoneNumber = "+5491150439157";
+        const message = encodeURIComponent(
+          "Hola, estoy en la página de VERSA DIGITAL y quiero pedir más información"
+        );
+        const url = `https://wa.me/${phoneNumber}?text=${message}`;
+        window.open(url, "_blank");
+      };
+
   return (
     <section className='servicios' id='servicios'>
         <div className='titleServicios'>
@@ -124,9 +134,10 @@ const Servicios = () => {
     </div>
 <div  className='beneficiosServ2'>
     <p>Estamos para despejar tus dudas y ayudarte a alcanzar tus objetivos digitales!</p>
-<button>
-      <a target="_blank" href="https://wa.me/+541130589482?text=Hola,%20estoy%20en%20la%20página%20de%20VERSA DIGITAL%20y%20quiero%20 pedir%20más%20información">contactanos</a>
-      </button>
+    
+    <button onClick={redirectToWhatsApp}>
+      contactanos
+    </button>
 </div>
 </div>
  </div>
