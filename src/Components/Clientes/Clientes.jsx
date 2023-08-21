@@ -31,7 +31,7 @@ const Clientes = () => {
       web: "sitio web",
       icoWeb: "/images/clientes/web.png",
       link: "",
-      image: '/images/clientes/cliente2.png',
+      image: '/images/clientes/cliente1.png',
       description: 'Descripción del Cliente 2...',
     },
     {
@@ -41,7 +41,7 @@ const Clientes = () => {
       web: "sitio web",
       icoWeb: "/images/clientes/web.png",
       link: "",
-      image: '/images/clientes/cliente3.png',
+      image: '/images/clientes/cliente2.png',
       description: 'Descripción del Cliente 3...',
     },
     {
@@ -51,7 +51,7 @@ const Clientes = () => {
       web: "sitio web",
       icoWeb: "/images/clientes/web.png",
       link: "",
-      image: '/images/clientes/cliente4.png',
+      image: '/images/clientes/cliente3.png',
       description: 'Descripción del Cliente 4...',
     },
   ];
@@ -64,7 +64,7 @@ const Clientes = () => {
 
       <div className='itemsClientes'>
         {clientesData.map((cliente) => (
-          <div className='itemClient' key={cliente.id} onClick={() => handleOpenModal(cliente)}>
+          <div className='itemClient' >
             <img src={cliente.image} alt={cliente.name} />
           </div>
         ))}
