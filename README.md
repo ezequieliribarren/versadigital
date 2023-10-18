@@ -30,17 +30,17 @@ Un botón de WhatsApp flotante permite a los visitantes iniciar una conversació
 
 ## Tecnologías Utilizadas
 
-- **React:** Utilizado para crear componentes interactivos y dinámicos que ofrecen una experiencia de usuario fluida y atractiva.
+- ![react](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/fd64b8f1-e248-41c1-a279-f4a4b442259d) **React:** Utilizado para crear componentes interactivos y dinámicos que ofrecen una experiencia de usuario fluida y atractiva.
 
-- **React Router:** Implementación de enrutamiento para una navegación sin problemas dentro del sitio web de una sola página.
+- ![devicon_reactrouter](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/707dd0b5-e274-4869-9cb4-76376784dcf8)**React Router:** Implementación de enrutamiento para una navegación sin problemas dentro del sitio web de una sola página.
 
-- **Sass:** Preprocesador CSS que facilita la organización y estilización del contenido del sitio web.
-
+- ![sass](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/6c5ff55e-00c2-45fa-be9c-21d750e047a3)**Sass:** Preprocesador CSS que facilita la organización y estilización del contenido del sitio web.
+- ![bootstrap](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/7f991683-b7e4-41e1-bce9-696290a5d411) **Bootstrap:** Framework CSS para una maquetación rápida y diseño responsivo.
+- 
 - **EmailJS:** Integración para el envío de correos electrónicos desde el formulario de contacto del sitio web, asegurando una comunicación confiable con los usuarios.
 
 - **React Google reCAPTCHA:** Implementación de Google reCAPTCHA en el formulario de contacto para proteger contra el spam y garantizar que los mensajes sean genuinos.
 
-- **React Spinners:** Utilizado para indicadores de carga visuales, brindando retroalimentación a los usuarios mientras se cargan datos o se realizan acciones.
 
 ---
 
