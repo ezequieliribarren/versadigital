@@ -45,9 +45,7 @@ Un botón de WhatsApp flotante permite a los visitantes iniciar una conversació
 
 ## Contacto
 
-Para cualquier consulta, colaboración o para iniciar una conversación sobre cómo Versa Digital puede ayudarte, no dudes en ponerte en contacto:
+Para cualquier pregunta o colaboración, no dudes en ponerte en contacto:
 
-- **Correo Electrónico:** [contacto@versadigital.com](mailto:contacto@versadigital.com)
-- **Sitio Web:** [Versa Digital](https://www.versadigital.com)
-
-
+- **E-mail:** [info@ezequieliribarren.com](mailto:info@ezequieliribarren.com)
+- **Sitio Web:** [Portfolio](https://ezequieliribarren.com/)
